@@ -10,7 +10,7 @@ const GetStarted = () => {
 			</div>
 			<div className="flex flex-col items-center absolute top-[300px] left-[430px]">
 				<div className="bg-[#FF921740] w-fit rounded-full px-4 py-2">
-					<div className="text-[#FF9217] text-[13px]">
+					<div className="text-[#FF9217] text-[13px] cursor-pointer">
 						Featured on Product Hunt &gt;
 					</div>
 				</div>
@@ -22,10 +22,10 @@ const GetStarted = () => {
 					Take your team up a level with easy-to-use tools, effortless templates
 					and efficient workflows.
 				</div>
-				<div className="bg-[#FFFFFF] w-fit text-[14px] flex rounded-md px-2.5 py-1.5 my-4">
+				<div className="bg-[#FFFFFF] cursor-pointer w-fit text-[14px] flex rounded-md px-2.5 py-1.5 my-4">
 					Get started today
 				</div>
-				<div className="flex flex-col items-center">
+				<div className="flex flex-col items-center cursor-pointer">
 					<div className="text-[#FFFFFF66] text-[14px]">Learn more </div>
 					<Image src={IMAGES.smallDownArrow} />
 				</div>

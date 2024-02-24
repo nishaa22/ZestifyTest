@@ -32,7 +32,7 @@ function AboutProduct() {
 							Build extensions to quickly access company brand assets, log
 							feedback, book time off, or search your employee index.
 						</div>
-						<div className="text-[15px] flex gap-2 text-[#FFFFFF]">
+						<div className="text-[15px] flex gap-2 text-[#FFFFFF] cursor-pointer">
 							<div>Explore More </div>
 							<Image src={IMAGES.smallRightArrow} />
 						</div>

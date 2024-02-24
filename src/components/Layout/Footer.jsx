@@ -27,21 +27,41 @@ const Footer = () => {
 				<div>
 					<div className="text-[#FFFFFF] py-2">Product</div>
 					<ul className="text-[12px] text-[#FFFFFF80] flex flex-col gap-2">
-						<li>About Us</li>
-						<li>FAQ’s</li>
-						<li>Privacy Policy</li>
-						<li>Terms of Service</li>
-						<li>Disclaimer</li>
-						<li>Submit Grievance</li>
-						<li>Features</li>
+						<li>
+							<Link href={'#'}>About Us</Link>
+						</li>
+						<li>
+							<Link href={'#'}>FAQ’s</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Privacy Policy</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Terms of Service</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Disclaimer</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Submit Grievance</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Features</Link>
+						</li>
 					</ul>
 				</div>
 				<div>
 					<div className="text-[#FFFFFF] py-2">Community</div>
 					<ul className="text-[12px] text-[#FFFFFF80] flex flex-col gap-2">
-						<li>Subscription</li>
-						<li>Courses</li>
-						<li>Webinar</li>
+						<li>
+							<Link href={'#'}>Subscription</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Courses</Link>
+						</li>
+						<li>
+							<Link href={'#'}>Webinar</Link>
+						</li>
 					</ul>
 				</div>
 			</div>

@@ -48,7 +48,7 @@ const OurBlogs = () => {
 					);
 				})}
 			</div>
-			<div className="bg-[#FFFFFF] w-fit mx-auto text-[14px] flex rounded-md px-5 py-2">
+			<div className="bg-[#FFFFFF] cursor-pointer w-fit mx-auto text-[14px] flex rounded-md px-5 py-2">
 				Explore More
 			</div>
 			<div className="flex justify-between py-20">
@@ -63,7 +63,7 @@ const OurBlogs = () => {
 						Empower your teams to build better processes, for a better
 						workplace.
 					</div>
-					<div className="bg-[#FFFFFF] w-fit text-[14px] flex rounded-md px-4 py-2">
+					<div className="bg-[#FFFFFF] cursor-pointer w-fit text-[14px] flex rounded-md px-4 py-2">
 						Become a Affiliate Partner
 					</div>
 				</div>

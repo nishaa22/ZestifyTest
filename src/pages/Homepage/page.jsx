@@ -8,6 +8,7 @@ import AboutProduct from './sections/AboutProduct';
 import ProductWork from './sections/ProductWork';
 import Testimonials from './sections/Testimonials';
 import GetStarted from './sections/GetStarted';
+import Feature from './sections/Feature';
 
 const Homepage = () => {
 	return (
@@ -15,11 +16,12 @@ const Homepage = () => {
 			<GetStarted />
 			<TrustedTeams />
 			<AboutProduct />
+			<Feature />
 			<WhyChooseUs />
 			<OurExpertise />
+			<ProductWork />
 			<StockMarket />
 			<OurBlogs />
-			<ProductWork />
 			<Testimonials />
 		</div>
 	);
