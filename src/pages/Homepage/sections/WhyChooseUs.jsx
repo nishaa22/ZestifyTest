@@ -5,15 +5,8 @@ import React from 'react';
 
 const WhyChooseUs = () => {
 	return (
-		<section className="bg-[#06030E] py-6 px-40">
-			<div
-				className="text-center text-4xl font-semibold"
-				style={{
-					background: '-webkit-linear-gradient(#FFFFFF, #71717A)',
-					'-webkit-background-clip': 'text',
-					'-webkit-text-fill-color': 'transparent',
-				}}
-			>
+		<section className="py-20">
+			<div className="text-[52px] text-center bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px]">
 				Why Choose Us
 			</div>
 			<div className="text-base text-[#FFFFFF99] text-center w-[52%] mx-auto py-2">

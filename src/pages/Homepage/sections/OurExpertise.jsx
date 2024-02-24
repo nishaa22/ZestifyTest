@@ -4,15 +4,8 @@ import React from 'react';
 
 const OurExpertise = () => {
 	return (
-		<section className="bg-[#06030E] py-4 px-40">
-			<div
-				className=" text-4xl font-semibold"
-				style={{
-					background: '-webkit-linear-gradient(#FFFFFF, #71717A)',
-					'-webkit-background-clip': 'text',
-					'-webkit-text-fill-color': 'transparent',
-				}}
-			>
+		<section className="py-20">
+			<div className="text-[52px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px]">
 				Our Expertise
 			</div>
 			<div className="text-base text-[#FFFFFF99] py-2">
