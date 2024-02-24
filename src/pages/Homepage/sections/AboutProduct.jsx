@@ -18,17 +18,17 @@ function AboutProduct() {
 				</div>
 				<div className="flex">
 					<Image src={IMAGES.product_features} />
-					<div className="flex flex-col gap-4">
+					<div className="flex flex-col gap-4 w-[40%]">
 						<div className="text-[#56C2FF] text-[15px]">Lorem Ipsum Dolor</div>
-						<div className="text-[30px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[30px] w-[400px]">
+						<div className="text-[30px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[30px]">
 							Lorem ipsum dolor sit amet consectetur.
 						</div>
-						<div className="text-[#A1A1AA] w-[600px] ">
+						<div className="text-[#A1A1AA]">
 							With great teams come great processes. Using our developer API,
 							create and publish extensions to your organization’s Private
 							Extension Store for your team to install.
 						</div>
-						<div className="text-[#A1A1AA] w-[600px]">
+						<div className="text-[#A1A1AA]">
 							Build extensions to quickly access company brand assets, log
 							feedback, book time off, or search your employee index.
 						</div>
