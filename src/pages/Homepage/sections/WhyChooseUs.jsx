@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
 			<div className="text-[52px] text-center bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px]">
 				Why Choose Us
 			</div>
-			<div className="text-base text-[#FFFFFF99] text-center w-[52%] mx-auto py-2">
+			<div className="text-base text-[#FFFFFF99] text-center w-[52%] mx-auto py-4">
 				Turn Pro to harness the power of AI, make Raycast your own with custom
 				themes, keep your Macs in sync and more.
 			</div>

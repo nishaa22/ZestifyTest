@@ -1,18 +1,18 @@
-import Header from '@/components/Layout/Header';
 import React from 'react';
 import TrustedTeams from './sections/TrustedTeams';
 import WhyChooseUs from './sections/WhyChooseUs';
 import OurExpertise from './sections/OurExpertise';
-import Footer from '@/components/Layout/Footer';
 import OurBlogs from './sections/OurBlogs';
 import StockMarket from './sections/StockMarket';
 import AboutProduct from './sections/AboutProduct';
 import ProductWork from './sections/ProductWork';
+import Testimonials from './sections/Testimonials';
+import GetStarted from './sections/GetStarted';
 
 const Homepage = () => {
 	return (
 		<div>
-			<Header />
+			<GetStarted />
 			<TrustedTeams />
 			<AboutProduct />
 			<WhyChooseUs />
@@ -20,7 +20,7 @@ const Homepage = () => {
 			<StockMarket />
 			<OurBlogs />
 			<ProductWork />
-			<Footer />
+			<Testimonials />
 		</div>
 	);
 };

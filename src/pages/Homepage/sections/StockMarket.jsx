@@ -12,7 +12,7 @@ const StockMarket = () => {
 				<div className="text-[#FFFFFF99] text-[14px] py-3">
 					Empower your teams to build better processes, for a better workplace.
 				</div>
-				<div className="bg-[#FFFFFF] w-fit text-[14px] flex rounded-md px-2.5 py-1.5">
+				<div className="bg-[#FFFFFF] w-fit text-[14px] flex rounded-md px-4 py-2">
 					Join Expert Team
 				</div>
 			</div>

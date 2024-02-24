@@ -11,7 +11,7 @@ function AboutProduct() {
 					<div className="text-[50px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px] text-center w-[500px]	m-auto">
 						About Our Product & Features
 					</div>
-					<div className="text-[#A1A1AA] text-center ">
+					<div className="text-[#A1A1AA] text-center py-4">
 						Empower your teams to build better processes, for a better workplace
 					</div>
 				</div>
@@ -31,7 +31,10 @@ function AboutProduct() {
 							Build extensions to quickly access company brand assets, log
 							feedback, book time off, or search your employee index.
 						</div>
-						<div className="text-[15px] text-[#FFFFFF]">Explore More</div>
+						<div className="text-[15px] flex gap-2 text-[#FFFFFF]">
+							<div>Explore More </div>
+							<Image src={IMAGES.smallRightArrow} />
+						</div>
 					</div>
 				</div>
 			</div>

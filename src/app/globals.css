@@ -17,3 +17,8 @@
   border-radius: 0;
   background: #b0b0b0;
 }
+
+.hero {
+  background: url("../assets/bg.svg");
+  background-size: cover;
+}

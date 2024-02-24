@@ -27,6 +27,14 @@ import stepTwo from './stepTwo.svg';
 import stepThree from './stepThree.svg';
 import stepFour from './stepFour.svg';
 import product_features from './product_feature.svg';
+import coin from './coin.svg';
+import leftArrow from './leftArrow.svg';
+import rightArrow from './rightArrow.svg';
+import avatar from './avatar.svg';
+import ring from './ring.svg';
+import smallRightArrow from './smallRightArrow.svg';
+import smallDownArrow from './smallDownArrow.svg';
+import bg from './bg.svg';
 
 export const IMAGES = {
 	logo,
@@ -58,4 +66,12 @@ export const IMAGES = {
 	stepThree,
 	stepFour,
 	product_features,
+	coin,
+	leftArrow,
+	rightArrow,
+	avatar,
+	ring,
+	smallDownArrow,
+	smallRightArrow,
+	bg,
 };

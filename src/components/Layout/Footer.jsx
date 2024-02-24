@@ -6,7 +6,7 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<footer className="flex justify-between pb-20 pt-10">
+		<footer className="flex justify-between py-4 px-40 pb-20 pt-20 border-t-2 border-[#FFFFFF1A]">
 			<div className="w-80">
 				<Image src={IMAGES.logo} />
 				<div className="text-[#FFFFFF80] py-3 text-[14px]">
