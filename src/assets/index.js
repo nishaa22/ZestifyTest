@@ -35,6 +35,14 @@ import ring from './ring.svg';
 import smallRightArrow from './smallRightArrow.svg';
 import smallDownArrow from './smallDownArrow.svg';
 import bg from './bg.svg';
+import profileIcon from './profile.svg';
+import searchIcon from './searchIcon.svg';
+import vectorIcon from './vectorIcon.svg';
+import product_value from './product_value.svg';
+import feature_icon from './feature_icon.svg';
+import playButton from './playButton.svg';
+import featureLoram from './featureLoram.svg';
+import exporeMore from './exploreMore.svg';
 
 export const IMAGES = {
 	logo,
@@ -74,4 +82,12 @@ export const IMAGES = {
 	smallDownArrow,
 	smallRightArrow,
 	bg,
+	product_value,
+	profileIcon,
+	searchIcon,
+	vectorIcon,
+	feature_icon,
+	playButton,
+	featureLoram,
+	exporeMore,
 };

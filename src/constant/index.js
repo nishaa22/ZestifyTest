@@ -130,6 +130,24 @@ export const blogData = [
 	},
 ];
 
+export const freatures = [
+	{
+		icon: IMAGES.profileIcon,
+		title: 'Users',
+		text: 'Stay on top of your growing company by making it easy to search, and get to know, your teammates.',
+	},
+	{
+		icon: IMAGES.searchIcon,
+		title: 'Research Analysis',
+		text: 'Keep your visuals consistently on-brand with easily accessible colors, icons,screenshots and more, for the whole team.',
+	},
+	{
+		icon: IMAGES.vectorIcon,
+		title: 'Research Analysis',
+		text: 'Keep your visuals consistently on-brand with easily accessible colors, icons,screenshots and more, for the whole team.',
+	},
+];
+
 export const testimonials = [
 	{
 		id: 1,
@@ -144,16 +162,16 @@ export const testimonials = [
 		id: 2,
 		content:
 			'Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange.',
-		author: 'Atthakrit Chimplapibul',
-		position: 'Co-founder & CEO of Bitkub',
+		author: 'Chimplapibul',
+		position: 'CEO of Bitkub',
 		avatar: IMAGES.avatar,
 	},
 	{
 		id: 3,
 		content:
 			'Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. ',
-		author: 'Atthakrit Chimplapibul',
-		position: 'Co-founder & CEO of Bitkub',
+		author: 'Atthakrit',
+		position: 'Co-founder ',
 		avatar: IMAGES.avatar,
 	},
 ];

@@ -1,15 +1,14 @@
 import { IMAGES } from '@/assets';
 import Image from 'next/image';
 import React from 'react';
-import TrustedTeams from './TrustedTeams';
 
 const GetStarted = () => {
 	return (
-		<section className={`flex flex-col py-20 hero`}>
+		<section className={`flex flex-col py-10 hero`}>
 			<div className="flex justify-center items-center relative">
 				<Image src={IMAGES.ring} height={750} />
 			</div>
-			<div className="flex flex-col items-center absolute top-[300px] left-[400px]">
+			<div className="flex flex-col items-center absolute top-[300px] left-[430px]">
 				<div className="bg-[#FF921740] w-fit rounded-full px-4 py-2">
 					<div className="text-[#FF9217] text-[13px]">
 						Featured on Product Hunt &gt;

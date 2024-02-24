@@ -33,36 +33,6 @@ const Testimonials = () => {
 				Our partnerships have delivered great value to our projects and we’re
 				happy to share some of their feedback below
 			</div>
-			{/* <div className="flex justify-center gap-20 py-10 w-[80%] mx-auto">
-				<div className="flex justify-center">
-					<Image src={IMAGES.leftArrow} />
-				</div>
-				<div className="w-[50%]">
-					<div className="text-[#FFFFFF] text-center leading-7 text-[20px]">
-						Since 2019, Gravity team has been an astounding market maker for
-						Bitkub. They have proven themselves to be one of the most
-						consistent, committed and driven market makers on our exchange.
-						Gravity Team has contributed high-quality volume and has proven to
-						be very reliable and trustworthy partner. We strongly advocate
-						Gravity Team as they have been an indispensable part of our
-						market-making team.
-					</div>
-					<div className="flex justify-center gap-3 py-7">
-						<div>
-							<Image src={IMAGES.avatar} />
-						</div>
-						<div>
-							<div className="text-[#FFFFFF]">Atthakrit Chimplapibul</div>
-							<div className="text-[#FFFFFF] font-thin text-[12px]">
-								Co-founder & CEO of Bitkub
-							</div>
-						</div>
-					</div>
-				</div>
-				<div className="flex justify-center">
-					<Image src={IMAGES.rightArrow} />
-				</div>
-			</div> */}
 			<div className="h-[400px] flex justify-center items-center flex-col">
 				<div className="flex justify-evenly py-10 w-[80%] mx-auto">
 					<div
@@ -79,7 +49,7 @@ const Testimonials = () => {
 						<div className="text-[#FFFFFF] h-[300px] flex items-center align-middle text-center leading-7 text-[20px]">
 							{currentTestimonial.content}
 						</div>
-						<div className="flex justify-center gap-10 py-7">
+						<div className="flex justify-center gap-5 py-7">
 							<div>
 								<Image src={currentTestimonial.avatar} alt="Avatar" />
 							</div>

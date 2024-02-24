@@ -1,6 +1,7 @@
 'use client';
 import { IMAGES } from '@/assets';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 function AboutProduct() {
