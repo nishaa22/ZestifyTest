@@ -11,12 +11,13 @@ module.exports = {
 				primary: '#06030E',
 			},
 			colors: {
+				primary: '#06030E',
 				gradiantText: '-webkit-linear-gradient(#FFFFFF, #71717A)',
 				// '-webkit-background-clip': 'text',
 				// '-webkit-text-fill-color': 'transparent',
 			},
 			animation: {
-				marqueeX: 'marqueeX 10s linear infinite',
+				marqueeX: 'marqueeX 16s linear infinite',
 				marqueeTop: 'marqueeTop 10s linear infinite',
 				marqueeDown: 'marqueeDown 10s linear infinite',
 			},

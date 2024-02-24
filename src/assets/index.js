@@ -22,6 +22,11 @@ import blog3 from './blog3.svg';
 import blog4 from './blog4.svg';
 import blog5 from './blog5.svg';
 import stockMarket from './stockMarket.svg';
+import stepOne from './stepOne.svg';
+import stepTwo from './stepTwo.svg';
+import stepThree from './stepThree.svg';
+import stepFour from './stepFour.svg';
+import product_features from './product_feature.svg';
 
 export const IMAGES = {
 	logo,
@@ -48,4 +53,9 @@ export const IMAGES = {
 	blog4,
 	blog5,
 	stockMarket,
+	stepOne,
+	stepTwo,
+	stepThree,
+	stepFour,
+	product_features,
 };

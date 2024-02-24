@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
 					);
 				})}
 			</div>
-			<Image src={IMAGES.webinar} className="py-4" />
+			<Image src={IMAGES.webinar} className="py-10" />
 		</section>
 	);
 };

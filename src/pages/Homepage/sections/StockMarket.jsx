@@ -4,7 +4,7 @@ import React from 'react';
 
 const StockMarket = () => {
 	return (
-		<section className="py-20 flex justify-between">
+		<section className="pb-20 flex justify-between">
 			<div className="w-[50%] flex flex-col justify-center">
 				<div className="text-[52px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px] ">
 					Our Stock Market Experties
