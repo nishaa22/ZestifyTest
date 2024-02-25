@@ -5,7 +5,7 @@ import React from 'react';
 
 const OurBlogs = () => {
 	return (
-		<section className="py-20">
+		<section className="py-20" id="blog">
 			<div className="flex justify-between">
 				<div className="text-[52px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px] ">
 					Our Blogs
@@ -51,7 +51,7 @@ const OurBlogs = () => {
 			<div className="bg-[#FFFFFF] cursor-pointer w-fit mx-auto text-[14px] flex rounded-md px-5 py-2">
 				Explore More
 			</div>
-			<div className="flex justify-between py-20">
+			<div className="flex justify-between py-20" id="refer">
 				<div className="w-[50%] flex flex-col justify-center">
 					<div className="flex gap-4">
 						<div className="text-[52px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px] ">

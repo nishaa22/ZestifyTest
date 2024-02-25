@@ -12,14 +12,12 @@ module.exports = {
 			},
 			colors: {
 				primary: '#06030E',
-				gradiantText: '-webkit-linear-gradient(#FFFFFF, #71717A)',
-				// '-webkit-background-clip': 'text',
-				// '-webkit-text-fill-color': 'transparent',
 			},
 			animation: {
 				marqueeX: 'marqueeX 16s linear infinite',
 				marqueeTop: 'marqueeTop 10s linear infinite',
 				marqueeDown: 'marqueeDown 10s linear infinite',
+				spinSlow: 'spinSlow infinite linear 16s',
 			},
 			keyframes: {
 				marqueeX: {
@@ -33,6 +31,14 @@ module.exports = {
 				marqueeDown: {
 					'0%': { transform: 'translateY(-100%)' },
 					'100%': { transform: 'translateY(100%)' },
+				},
+				spinSlow: {
+					'0%': {
+						transform: 'rotate(0deg)',
+					},
+					'100%': {
+						transform: 'rotate(360deg)',
+					},
 				},
 			},
 		},

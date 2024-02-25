@@ -11,14 +11,14 @@ const Header = () => {
 			</Link>
 			<nav className="flex gap-8 text-[#FFFFFF99] text-[14px]">
 				<Link href={'#'}>Home</Link>
-				<Link href={'#'}>Features</Link>
-				<Link href={'#'}>Expertise</Link>
-				<Link href={'#'}>Blogs</Link>
+				<Link href={'#feature'}>Features</Link>
+				<Link href={'#expertise'}>Expertise</Link>
+				<Link href={'#blog'}>Blogs</Link>
 				<Link href={'#'}>Contact Us</Link>
 			</nav>
 			<div className="text-[#FFFFFF99] flex gap-20 items-center text-[14px]">
 				<Link
-					href={'#'}
+					href={'#refer'}
 					className="border rounded-full border-[#FFFFFF99] px-6 py-1.5"
 				>
 					Refer & Earn

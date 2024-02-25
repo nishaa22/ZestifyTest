@@ -6,7 +6,7 @@ import React from 'react';
 
 function AboutProduct() {
 	return (
-		<section className="">
+		<section className="" id="feature">
 			<div className=" flex flex-col gap-10">
 				<div className=" flex justify-center flex-col align-center">
 					<div className="text-[50px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px] text-center w-[500px]	m-auto">

@@ -4,7 +4,7 @@ import React from 'react';
 
 const OurExpertise = () => {
 	return (
-		<section className="py-20">
+		<section className="py-20" id="expertise">
 			<div className="text-[52px] bg-gradient-to-r from-[#FFFFFF] to-[#71717A] text-transparent bg-clip-text font-[700] leading-[50px]">
 				Our Expertise
 			</div>
