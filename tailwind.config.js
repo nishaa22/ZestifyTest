@@ -17,7 +17,7 @@ module.exports = {
 				marqueeX: 'marqueeX 16s linear infinite',
 				marqueeTop: 'marqueeTop 10s linear infinite',
 				marqueeDown: 'marqueeDown 10s linear infinite',
-				spinSlow: 'spinSlow infinite linear 16s',
+				spinSlow: 'spinSlow infinite linear 10s',
 			},
 			keyframes: {
 				marqueeX: {
@@ -34,10 +34,13 @@ module.exports = {
 				},
 				spinSlow: {
 					'0%': {
-						transform: 'rotate(0deg)',
+						transform: 'scale(1) rotate(0deg)',
+					},
+					'50%': {
+						transform: 'scale(1.2) rotate(180deg)',
 					},
 					'100%': {
-						transform: 'rotate(360deg)',
+						transform: 'scale(1) rotate(360deg)',
 					},
 				},
 			},
